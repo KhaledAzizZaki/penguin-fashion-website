@@ -22,26 +22,40 @@
   </head>
   <body class="roboto-font">
     <header class="bg-[#FFFBF0]">
-      <nav></nav>
-      <div class="mx-auto">
-        <div class="mx-auto border border-red-400 max-w-79 mb-11">
-          <h1 class="text-6xl uppercase bebas-neue-regular">
+      <!-- Navigation Bar -->
+      <nav class="max-w-6xl flex mx-auto justify-between items-center pt-10">
+        <div class="w-72">
+          <img src="icons/logo.png" alt="">
+        </div>
+        <div>
+          <ul class="flex gap-10">
+            <li>Home</li>
+            <li>Product</li>
+            <li>About us</li>
+            <li>Contact us</li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Hero section -->
+      <div class="max-w-6xl mx-auto lg:flex justify-between items-center  pt-5 pb-20">
+        <!-- Description -->
+        <div class="mx-auto max-w-79 lg:max-w-full mb-11 lg:my-auto lg:mx-0">
+          <h1 class="text-6xl lg:text-7xl uppercase bebas-neue-regular">
             <span class="text-[#FABE4C]">Be the Penguins</span>
             <br />
             <span class="text-[#363958]">of Winter</span>
           </h1>
-          <p class="text-base mb-8">
+          <p class="text-base mb-8 mt-4 max-w-96">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
           </p>
-          <button
-            class="rounded-lg px-9 py-4 bg-linear-to-t from-[#85A019] to-[#A4BC46] text-base text-slate-50 flex gap-2"
-          >
+          <button class="rounded-lg px-9 py-4 bg-linear-to-t from-[#85A019] to-[#A4BC46] text-base text-slate-50 flex gap-2">
             <img class="w-6" src="icons/shopping-cart 1.png" alt="" />
             BUY NOW
           </button>
-        </div>
-        <div class="border border-red-400 max-w-79 mx-auto">
+        </div class>
+        <!-- Image -->
+        <div class=" max-w-79 lg:max-w-full mx-auto lg:mx-0">
           <img class="w-full" src="images/model.png" alt="" />
         </div>
       </div>
